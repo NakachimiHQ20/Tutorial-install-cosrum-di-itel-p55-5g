@@ -1,3 +1,75 @@
-**tutorial install cosrum di itel p55 5g**
+📝 NOTE BACKUP SEBELUM CUSTOM ROM
+1. 📱 Backup Data Pribadi (WAJIB)
 
-NOTE 1 : sebelum melakuan cusrom di ingatkan, untuk melakukan backup data yang penting 
+Pastikan semua data penting sudah diamankan:
+
+Kontak → sinkron ke akun Google
+Foto & video → pindahkan ke PC / Google Photos
+Dokumen → simpan di Google Drive / flashdisk
+Musik / file penting → copy ke penyimpanan lain
+
+
+2. 💬 Backup Chat & Aplikasi
+WhatsApp → gunakan fitur backup ke Google Drive
+Telegram → relatif aman (cloud), tapi cek ulang
+Aplikasi penting (game, dll):
+Gunakan backup internal jika ada
+Bisa pakai app seperti:
+Swift Backup
+Titanium Backup (butuh root)
+3. 🧠 Backup Partisi Penting (SANGAT DISARANKAN)
+
+
+
+Kalau kamu pakai custom recovery seperti:
+
+
+
+TWRP
+
+
+
+Lakukan backup:
+
+
+
+Boot
+System
+Data
+EFS (IMEI) ⚠️ penting banget!
+
+
+
+👉 Ini disebut Nandroid Backup (backup full sistem)
+
+
+
+4. 📶 Backup IMEI / EFS (KRITIS)
+Ini menyimpan identitas jaringan HP kamu
+Kalau hilang → sinyal bisa hilang total 😬
+Backup via TWRP atau tool khusus chipset (Qualcomm/MTK)
+5. 🔐 Catat Akun & Password
+Email Google
+Akun Mi / Samsung / dll
+PIN / pola layar
+
+
+
+👉 Supaya nggak kena FRP lock setelah reset
+
+
+
+6. 🔋 Persiapan Tambahan  
+  Baterai minimal 70%  
+  Kabel USB bagus  
+  Driver & tools di PC sudah siap  
+  File ROM & GApps sudah didownload  
+
+7. ⚠️ Hal yang Sering DilupakanLogout akun penting sebelum flashDisable screen lock (kadang bikin error)Pastikan ROM sesuai tipe HP (jangan salah varian)
+
+
+
+📌 Tips Aman
+Simpan backup di 2 tempat (misalnya PC + cloud)
+Jangan cuma mengandalkan internal storage
+Cek ulang hasil backup sebelum mulai flashing
