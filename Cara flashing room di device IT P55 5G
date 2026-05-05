@@ -1,0 +1,19 @@
+1. masuk ke recovery (disarankan ofox)
+2. pastikan slot active a
+3. flash flashable vbmeta(slot a)
+4. flash rom (slot a)
+5. ubah slot ke b
+6. reboot recovery
+- jika recovery terganti dengan recovery dari orion os maka : 
+step 1: reboot bootloader
+step 2: cek slot active dengan command: fastboot getvar current-slot
+step 3: jika sudah berada di slot b maka: 
+- flash boot img ori v612 ke all slot: fastboot --slot=all flash boot (file boot img)
+- flash file ofox.img ke all slot: fastboot --slot=all flash vendor_boot (file recovery)
+step 4: reboot recovery : fastboot reboot recovery , lalu cek apakah slot nya sudah di b
+step 5: jika slot sudah di b, flash flashable vbmeta dahulu (slot b)
+step 6: flash rom (slot b)
+step 7: format data 
+step 8: reboot sistem
+
+note: jika sudah format data maka secara otomatis slot akan terganti ke slot a kembali
