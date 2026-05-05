@@ -36,13 +36,9 @@ Lakukan backup:
 Boot
 System
 Data
-EFS (IMEI) ⚠️ penting banget!
+EFS (IMEI) ⚠️ penting banget!  
 
-
-
-👉 Ini disebut Nandroid Backup (backup full sistem)
-
-
+👉 Ini disebut Nandroid Backup (backup full sistem)  
 
 4. 📶 Backup IMEI / EFS (KRITIS)
 Ini menyimpan identitas jaringan HP kamu
@@ -65,11 +61,9 @@ PIN / pola layar
   Driver & tools di PC sudah siap  
   File ROM & GApps sudah didownload  
 
-7. ⚠️ Hal yang Sering DilupakanLogout akun penting sebelum flashDisable screen lock (kadang bikin error)Pastikan ROM sesuai tipe HP (jangan salah varian)
+7. ⚠️ Hal yang Sering DilupakanLogout akun penting sebelum flashDisable screen lock (kadang bikin error)Pastikan ROM sesuai tipe HP (jangan salah varian)  
 
-
-
-📌 Tips Aman
-Simpan backup di 2 tempat (misalnya PC + cloud)
-Jangan cuma mengandalkan internal storage
-Cek ulang hasil backup sebelum mulai flashing
+📌 Tips Aman  
+Simpan backup di 2 tempat (misalnya PC + cloud)  
+Jangan cuma mengandalkan internal storage   
+Cek ulang hasil backup sebelum mulai flashing  
